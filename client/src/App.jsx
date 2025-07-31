@@ -5,7 +5,7 @@ import SignIn from './Pages/SignIn';
 import Project from './Pages/Project';
 import Profile from './Pages/Profile';
 import Header from './Components/Header';
-import PrivateRoute from  './Components/privateRoute';
+import PrivateRoute from  './Components/PrivateRoute';
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
 
 export default function App() {
