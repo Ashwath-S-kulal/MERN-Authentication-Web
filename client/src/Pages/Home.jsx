@@ -1,7 +1,7 @@
 import React from 'react';
-import imageAshwath from '../assets/dev-environment.jpg';
+import imageAshwath from '../Images/dev-environment.jpg';
 import { Link } from 'react-router-dom';
-import profilePicture from '../assets/profilePicture.jpg';
+import profilePicture from '../Images/profilepicture.jpg';
 import { FaLinkedin,  FaTwitter, FaFacebook, FaGithub, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 export default function Home(){

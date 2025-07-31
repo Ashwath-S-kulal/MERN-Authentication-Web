@@ -1,9 +1,9 @@
 import React from 'react'
-import PortfolioImg from "../assets/PorfolioImg.jpg"
-import AgriBookImg from '../assets/ABS.jpg';
-import SMDImg from '../assets/SMDIMG.png';
-import AuthImg from '../assets/Authentication.jpg';
-import SSWPImg from '../assets/SSWPIMG.webp';
+import PortfolioImg from "../Images/PorfolioImg.jpg"
+import AgriBookImg from '../Images/ABS.jpg';
+import SMDImg from '../Images/SMDIMG.png';
+import AuthImg from '../Images/Authentication.jpg';
+import SSWPImg from '../Images/SSWPIMG.webp';
 import { Link } from 'react-router-dom'
 
 export default function Project() {
