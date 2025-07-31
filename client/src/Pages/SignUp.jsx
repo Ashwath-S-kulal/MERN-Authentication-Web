@@ -46,6 +46,9 @@ export default function SignUp() {
         <button disabled={loading} className='bg-slate-700 text-white rounded-lg p-3 uppercase hover:opacity-70 disabled:opacity-80 '>
           {loading ? 'Loading...' : 'Sign Up'}
         </button>
+        <div className='flex flex-row gap-3  items-center'>
+          <hr className='w-48'></hr><span className='text-white'>OR</span><hr className='w-48'></hr>
+        </div>
         <OAuth/>
       </form>
 

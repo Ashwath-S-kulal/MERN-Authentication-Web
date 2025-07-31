@@ -97,7 +97,7 @@ export default function Home(){
                 <h1 className="text-4xl font-bold leading-snug">
                   Discover my Amazing Art Space!
                 </h1>
-                <p className="text-yellow-400 font-mono text-lg">
+                <p className="text-yellow-400 font-mono text-sm md:text-lg">
                   <span className='text-white'>&lt;code&gt;</span> I build web interfaces. <span className='text-white'>&lt;/code&gt;</span>
                     
                 </p>

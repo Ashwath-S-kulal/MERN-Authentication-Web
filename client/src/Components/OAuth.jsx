@@ -3,6 +3,7 @@ import {app} from '../firebase';
 import {useDispatch} from 'react-redux';
 import {signInSuccess} from '../redux/user/userSlice';
 import {useNavigate} from 'react-router-dom';
+import GoogleImg from '../Images/GoogleImg.jpg';
 
 export default function OAuth() {
     const dispatch = useDispatch();
@@ -36,7 +37,9 @@ export default function OAuth() {
     }
   return (
     <button type="button" onClick={handleGoogleClick}
-    className='bg-red-700 text-white rounded-lg p-3
-     uppercase hover:opacity-70'>Continue with Google</button>
+    className='bg-red-700 text-white rounded-lg p-3 uppercase hover:opacity-70 flex items-center gap-2 justify-center'>
+       <img src={GoogleImg} alt="Google" className='w-6 h-6'/>
+       <span>Continue with Google</span> 
+    </button>
   )
 }

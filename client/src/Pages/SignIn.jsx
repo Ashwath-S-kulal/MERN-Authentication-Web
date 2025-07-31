@@ -60,10 +60,13 @@ export default function SignIn() {
         />
         <button
           disabled={loading}
-          className='bg-slate-700 text-white p-3 rounded-lg uppercase hover:opacity-5 disabled:opacity-80'
+          className='bg-slate-700 text-white p-3 rounded-lg uppercase hover:opacity-70 disabled:opacity-80'
         >
           {loading ? 'Loading...' : 'Sign In'}
         </button>
+        <div className='flex flex-row gap-3  items-center'>
+          <hr className='w-48'></hr><span className='text-white'>OR</span><hr className='w-48'></hr>
+        </div>
         <OAuth />
       </form>
       <div className='flex gap-2 mt-5'>
