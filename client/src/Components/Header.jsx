@@ -5,8 +5,8 @@ export default function Header() {
   return (
     <div className='sticky top-0 left-0 w-full bg-gray-800 text-white h-16  px-6 z-50 shadow-md'>
         <div className='flex justify-between items-baseline max-w-6xl mx-auto p-4'>
-            <Link to='/'><h1 className='font-bold text-white text-xl'>Auth App</h1></Link>
-            <ul className='flex gap-4'>
+            <Link to='/'><h1 className='font-bold text-white text-lg md:text-2xl'>Auth App</h1></Link>
+            <ul className='flex gap-4 text-sm md:text-lg'>
                 <Link to='/' className="font-serif text-white hover:text-blue-700"><li>Home</li></Link>
                 <Link to='/project' className="font-serif text-white  hover:text-blue-700"><li>Project</li></Link>
                 <Link to='/profile' className="font-serif text-white  hover:text-blue-700">
