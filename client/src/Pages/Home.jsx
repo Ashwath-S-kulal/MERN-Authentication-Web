@@ -22,36 +22,36 @@ export default function Home(){
           </div>
           <hr className="border-t border-gray-600 " />
           
-          <div className='bg-gray-800 p-6 h-72 overflow-y-auto' style={{
+          <div className='bg-gray-800 p-4 h-72 overflow-y-auto' style={{
                 scrollbarWidth: 'none', 
                 msOverflowStyle: 'none',
               }} >
             
             <div className="mt-1 px-10">
-  <h3 className="font-bold text-lg">Skills</h3>
-  <hr className="border-t border-gray-600 mb-3 mt-0" />
+            <h3 className="font-bold text-lg">Skills</h3>
+            <hr className="border-t border-gray-600 mb-3 mt-0" />
 
-  {/* Skills List */}
-  {[
-    { name: "HTML", level: "90%" },
-    { name: "CSS", level: "95%" },
-    { name: "JavaScript", level: "60%" },
-    { name: "React JS", level: "65%" },
-    { name: "C", level: "70%" },
-    { name: "Java", level: "50%" },
-    { name: "DBMS", level: "65%" }
-  ].map((skill, index) => (
-    <div key={index} className="flex items-center gap-4 mb-2">
-      <p className="text-sm w-24 text-left">{skill.name}</p>
-      <div className="w-48 bg-gray-700 h-2 rounded">
-        <div
-          className="bg-yellow-400 h-2 rounded"
-          style={{ width: skill.level }}
-        ></div>
-      </div>
-    </div>
-  ))}
-</div>
+            {/* Skills List */}
+            {[
+              { name: "HTML", level: "90%" },
+              { name: "CSS", level: "95%" },
+              { name: "JavaScript", level: "60%" },
+              { name: "React JS", level: "65%" },
+              { name: "C", level: "70%" },
+              { name: "Java", level: "50%" },
+              { name: "DBMS", level: "65%" }
+            ].map((skill, index) => (
+              <div key={index} className="flex items-center gap-2 mb-2">
+                <p className="text-sm w-24 text-left">{skill.name}</p>
+                <div className="w-40 bg-gray-700 h-2 rounded">
+                  <div
+                    className="bg-yellow-400 h-2 rounded"
+                    style={{ width: skill.level }}
+                  ></div>
+                </div>
+              </div>
+            ))}
+          </div>
 
 
           
