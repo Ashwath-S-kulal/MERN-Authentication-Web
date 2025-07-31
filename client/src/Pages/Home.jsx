@@ -31,34 +31,54 @@ export default function Home(){
           <div className="mt-1 px-10">
             <h3 className="font-bold text-lg">Skills</h3>
             <hr className="border-t border-gray-600 mb-3 mt-0 " />
-            <p className="text-sm">HTML</p>
-            <div className="w-full bg-gray-700 h-2 rounded mb-2">
-              <div className="bg-yellow-400 h-2 rounded" style={{ width: '90%' }}></div>
+            <div className='flex flex-row justify-between gap-5'>
+              <p className="text-sm">HTML</p>
+              <div className="w-48 bg-gray-700 h-2 rounded mt-1 ">
+                <div className="bg-yellow-400 h-2 rounded " style={{ width: '90%' }}></div>
+              </div>
             </div>
-            <p className="text-sm">CSS</p>
-            <div className="w-full bg-gray-700 h-2 rounded mb-2">
-              <div className="bg-yellow-400 h-2 rounded" style={{ width: '95%' }}></div>
+            <div className='flex flex-row justify-between gap-5'>
+              <p className="text-sm">CSS</p>
+              <div className="w-48 bg-gray-700 h-2 rounded mb-2">
+                <div className="bg-yellow-400 h-2 rounded" style={{ width: '95%' }}></div>
+              </div>
             </div>
-            <p className="text-sm">JavaScript</p>
-            <div className="w-full bg-gray-700 h-2 rounded mb-2">
+            <div className='flex flex-row justify-between gap-5'>
+              <p className="text-sm">JavaScript</p>
+            <div className="w-48 bg-gray-700 h-2 rounded mb-2">
               <div className="bg-yellow-400 h-2 rounded" style={{ width: '60%' }}></div>
             </div>
-            <p className="text-sm">React JS</p>
-            <div className="w-full bg-gray-700 h-2 rounded mb-2">
+            </div>
+            <div className='flex flex-row justify-between gap-5'>
+              <p className="text-sm">React JS</p>
+            <div className="w-48 bg-gray-700 h-2 rounded mb-2">
               <div className="bg-yellow-400 h-2 rounded" style={{ width: '65%' }}></div>
             </div>
-            <p className="text-sm">C</p>
-            <div className="w-full bg-gray-700 h-2 rounded mb-2">
+            </div>
+            <div className='flex flex-row justify-between gap-5'>
+              <p className="text-sm">C</p>
+            <div className="w-48 bg-gray-700 h-2 rounded mb-2">
               <div className="bg-yellow-400 h-2 rounded" style={{ width: '70%' }}></div>
             </div>
-            <p className="text-sm">Java</p>
-            <div className="w-full bg-gray-700 h-2 rounded mb-2">
+            </div>
+            <div className='flex flex-row justify-between gap-5'>
+               <p className="text-sm">Java</p>
+            <div className="w-48 bg-gray-700 h-2 rounded mb-2">
               <div className="bg-yellow-400 h-2 rounded" style={{ width: '50%' }}></div>
             </div>
-            <p className="text-sm">DBMS</p>
-            <div className="w-full bg-gray-700 h-2 rounded mb-2">
+            </div>
+            <div className='flex flex-row justify-between gap-5'>
+               <p className="text-sm">DBMS</p>
+            <div className="w-48 bg-gray-700 h-2 rounded mb-2">
               <div className="bg-yellow-400 h-2 rounded" style={{ width: '65%' }}></div>
             </div>
+            </div>
+            
+            
+            
+            
+           
+           
           </div>
           <div className="mt-6 text-left space-y-2 px-10">
             <h3 className="font-bold text-lg text-center">Address</h3>
