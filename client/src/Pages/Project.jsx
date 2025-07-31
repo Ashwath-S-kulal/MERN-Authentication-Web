@@ -27,7 +27,7 @@ export default function Project() {
             My personal portfolio website showcases my skills, projects, and experiences. 
             It is built using HTML, CSS, and JavaScript. It serves as a central hub where visitors can learn more about me.
           </p>
-          <Link to="https://ashwath-s-kulal.github.io/Portfolio-website/" target='_blank'>
+          <Link to="https://ashwath-s-kulal.github.io/Porfolio-web/" target='_blank'>
             <p className="text-yellow-400 font-semibold text-sm mt-4">
               Open in Web &rarr;
             </p>
