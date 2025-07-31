@@ -100,7 +100,7 @@ export default function Project() {
               including Google authentication, and allows users to update their username, email, and password with privacy protection. 
               The platform ensures safe and efficient access for users.
             </p>
-            <Link to="#" target='_blank'>
+            <Link to="https://mern-authentication-web.onrender.com" target='_blank'>
               <p className="text-yellow-400 font-semibold text-sm mt-4">
                 Open in Web &rarr;
               </p>
