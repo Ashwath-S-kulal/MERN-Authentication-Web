@@ -14,7 +14,7 @@ export default function Home(){
           <div className='py-6'>
             <img
             src={profilePicture} // Replace with actual image
-            alt="Artur Carter"
+            alt="Ashwath S"
             className="w-36 rounded-full mx-auto mb-4 border-4 border-yellow-400"
             />
             <h2 className="text-xl font-bold">Ashwath S</h2>
