@@ -81,7 +81,7 @@ export default function Profile() {
         
         <img src={currentUser.profilePicture} alt="image" 
         className='h-24 w-24 self-center cursor-pointer 
-        rounded-s-full object-cover mt-2'/>
+        rounded-full object-cover mt-2'/>
         
         <input defaultValue={currentUser.username} type='text' id='username' placeholder='Username'
         className='p-3 my-2 rounded-lg border-2 border-gray-400 px-6'
