@@ -15,7 +15,7 @@ export default function Home(){
             <img
             src={profilePicture} // Replace with actual image
             alt="Ashwath S"
-            className="w-36 rounded-full mx-auto mb-4 border-4 border-yellow-400"
+            className="w-36 rounded-full mx-auto mb-4 border-2 border-yellow-400"
             />
             <h2 className="text-xl font-bold">Ashwath S</h2>
             <p className="text-gray-400">Engineer</p>
@@ -97,7 +97,7 @@ export default function Home(){
                 <h1 className="text-4xl font-bold leading-snug">
                   Discover my Amazing Art Space!
                 </h1>
-                <p className="text-yellow-400 font-mono text-sm md:text-lg">
+                <p className="text-yellow-400 font-mono text- md:text-lg">
                   <span className='text-white'>&lt;code&gt;</span> I build web interfaces. <span className='text-white'>&lt;/code&gt;</span>
                     
                 </p>
