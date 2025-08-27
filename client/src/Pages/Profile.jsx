@@ -16,13 +16,13 @@ import {
 export default function Profile() {
   const [formData, setFormData] = useState({});
   const [updateSuccess, setUpdateSuccess] = useState(false);
-  const {currentUser, loading, error} = useSelector(state => state.user);
+  const { currentUser, loading, error } = useSelector(state => state.user);
   const dispatch = useDispatch();
 
 
 
-  const handleChange=(e)=>{
-    setFormData({...formData,[e.target.id]:e.target.value});
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.id]: e.target.value });
   }
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -74,28 +74,28 @@ export default function Profile() {
   };
 
   return (
-     <div className="max-w-sm md:max-w-lg mx-auto bg-gray-800 p-10 mt-14">
-      <h1 className='text-3xl font-semibold text-center text-white my-7'>Profile</h1>
+    <div className="max-w-sm md:max-w-lg mx-auto bg-gray-100 p-10 mt-14 ring-1 ring-blue-100 shadow-2xl rounded-xl">
+      <h1 className='text-3xl font-semibold text-center text-black my-7'>Profile</h1>
       <form onSubmit={handleSubmit} className='flex flex-col gap-4'>
 
-        
-        <img src={currentUser.profilePicture} alt="image" 
-        className='h-24 w-24 self-center cursor-pointer 
+
+        <img src={currentUser.profilePicture} alt="image"
+          className='h-24 w-24 self-center cursor-pointer 
         rounded-full object-cover mt-2'/>
-        
+
         <input defaultValue={currentUser.username} type='text' id='username' placeholder='Username'
-        className='p-3 my-2 rounded-lg border-2 border-gray-400 px-6'
-        onChange={handleChange}/>
+          className='p-3 my-2 rounded-lg border-2 border-gray-400 px-6'
+          onChange={handleChange} />
 
         <input defaultValue={currentUser.email} type='email' id='email' placeholder='Email'
-        className='p-3 my-2 rounded-lg border-2 border-gray-400 px-6'
-        onChange={handleChange}/>
+          className='p-3 my-2 rounded-lg border-2 border-gray-400 px-6'
+          onChange={handleChange} />
 
         <input defaultValue={currentUser.password} type='password' id='password' placeholder='Password'
-        className='p-3 my-2 rounded-lg border-2 border-gray-400 px-6'
-        onChange={handleChange}/>
+          className='p-3 my-2 rounded-lg border-2 border-gray-400 px-6'
+          onChange={handleChange} />
 
-        <button className='bg-slate-700 text-white p-3 rounded-lg uppercase hover:opacity-70 disabled:opacity-80'>
+        <button className='bg-slate-700 text-white p-3 rounded-lg uppercase hover:bg-gray-900 disabled:opacity-80'>
           {loading ? 'Loading...' : 'Update'}
         </button>
       </form>
