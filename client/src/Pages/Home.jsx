@@ -3,7 +3,7 @@ export default function HomePage() {
     <div className="min-h-screen flex flex-col bg-gray-50">
 
 
-      <section className="flex-1 flex flex-col items-center justify-center text-center px-6">
+      <section className="flex-1 flex flex-col items-center justify-start md:justify-center text-center px-6 mt-20 md:mt-0">
         <h2 className="text-4xl md:text-6xl font-extrabold text-gray-800 mb-4">
           Welcome to <span className="text-blue-600">MERN Auth</span>
         </h2>

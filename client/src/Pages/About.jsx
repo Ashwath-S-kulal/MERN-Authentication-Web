@@ -11,6 +11,7 @@ export default function AboutPage() {
 
       <main className="flex-1 px-6 py-10 max-w-5xl mx-auto space-y-12">
         <section>
+          <h2 className="text-2xl md:text-3xl font-semibold mb-4">About Project</h2>
           <p className="text-lg md:text-xl leading-relaxed">
             This MERN stack website offers a user-friendly platform built with React.js.
             It features secure sign-up and sign-in options, including Google authentication,
@@ -40,7 +41,7 @@ export default function AboutPage() {
           <h2 className="text-2xl md:text-3xl font-semibold mb-6">
             What I Was Learn
           </h2>
-          <ul className="space-y-4 list-disc list-inside">
+          <ul className="space-y-4 ">
             <li>
               <strong>Frontend Setup:</strong> Install React.js, integrate Tailwind CSS, and use the
               latest React Router Dom to create authentication pages.
