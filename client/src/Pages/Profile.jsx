@@ -74,7 +74,7 @@ export default function Profile() {
   };
 
   return (
-    <div className="max-w-sm md:max-w-lg mx-auto bg-gray-100 p-10 mt-14 ring-1 ring-blue-100 shadow-2xl rounded-xl">
+    <div className="max-w-sm md:max-w-lg mx-auto bg-white md:bg-gray-100 ring-2 ring-white md:ring-blue-100 p-10 mt-0 md:mt-14 shadow-none md:shadow-2xl rounded-xl">
       <h1 className='text-3xl font-semibold text-center text-black my-7'>Profile</h1>
       <form onSubmit={handleSubmit} className='flex flex-col gap-4'>
 
